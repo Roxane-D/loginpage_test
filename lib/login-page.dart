@@ -94,7 +94,7 @@ Widget titleSection = Container(
 );
 
 Widget textSection = Container(
-  margin: EdgeInsets.fromLTRB(0, 5, 0, 50),
+  margin: EdgeInsets.fromLTRB(0, 5, 0, 20),
   child: Text(
     'Page de connexion Flutter',
     style: GoogleFonts.comfortaa(
@@ -105,7 +105,7 @@ Widget textSection = Container(
 );
 
 Widget inputsSection = Container(
-  margin: EdgeInsets.all(30),
+  margin: EdgeInsets.all(20),
   child: Column(
     children: [
       Container(
@@ -261,8 +261,7 @@ class SignupButton extends StatelessWidget {
 }
 
 Widget forgetButton = Container(
-  padding: EdgeInsets.all(20),
-  margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
+  margin: EdgeInsets.fromLTRB(0, 5, 0, 0),
   child: FlatButton(
     onPressed: () {},
     child: Text(
